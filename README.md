@@ -1,2 +1,3 @@
 # doktordesa
-3x3 (although theoretically scalable) tic tac toe game
+3x3 tic tac toe game with an undefeatable "Ai" opponent. The opponent is a minimax algorithm. The size of the board can be changed and the game is adaptive, although the minimax algorithm isn't good for scaling as it goes by the "possible moves" rule - for a 3x3 there are 9 fields, so 9! describes all the possibilities (=362,880) and for a 4x4 it would be 16! (=20,922,789,888,000).
+Conclusions - the game should use an algortihm that checks just the needed - 1. how can i (Ai) win faster, 2. how to block the opponent, protect myself 3. what would be the most effective move with possibly multiple winning ways (in a 3x3 having made a move in 3 corners gets you 3 possible wining moves, even having 2 will result in a win, as the opponent can only place a move in one, thus blocking only one way)
